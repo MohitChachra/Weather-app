@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#414141">
+
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:text="J"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"/>
+
+
+    <TextView
+        android:id="@+id/citytext"
+        android:textSize="22sp"
+        android:layout_marginStart="26dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jaipur"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

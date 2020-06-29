@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Volley weather map</string>
+    <string name="title_activity_second">secondActivity</string>
+    <string name="title_activity_secondactiviyty">secondactiviyty</string>
+</resources>
